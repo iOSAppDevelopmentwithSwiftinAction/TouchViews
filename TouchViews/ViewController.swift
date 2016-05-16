@@ -21,38 +21,39 @@ class ViewController: UIViewController {
         let viewA = UIView(frame: CGRect(
             x: margin,
             y: margin,
-            width: view.frame.width - (margin * 2),
-            height: halfHeight - (margin * 2)
+            width: halfWidth,
+            height: halfWidth
             ))
         viewA.backgroundColor = UIColor.randomColor()
         self.view.addSubview(viewA)
         
         let viewB = UIView(frame: CGRect(
-            x: (view.frame.width / 2) - margin,
-            y: margin,
-            width: halfWidth - margin * 2,
-            height: viewA.frame.height - (margin * 2)
+            x: view.frame.width - halfWidth - margin,
+            y: (view.frame.height / 2) - halfWidth,
+            width: halfWidth,
+            height: halfWidth
             ))
         viewB.backgroundColor = UIColor.randomColor()
-        viewA.addSubview(viewB)                     // View B is a subview of view A
+        self.view.addSubview(viewB)
         
         let viewC = UIView(frame: CGRect(
             x: margin,
-            y: halfHeight,
-            width: halfWidth,
-            height: halfWidth
+            y: halfHeight + margin,
+            width: view.frame.width - (margin * 2),
+            height: halfHeight - (margin * 2)
             ))
         viewC.backgroundColor = UIColor.randomColor()
         self.view.addSubview(viewC)
         
         let viewD = UIView(frame: CGRect(
-            x: view.frame.width - halfWidth - margin,
-            y: view.frame.height - halfWidth - margin,
-            width: halfWidth,
-            height: halfWidth
+            x: (view.frame.width / 2) - margin,
+            y: margin,
+            width: halfWidth - margin * 2,
+            height: viewC.frame.height - (margin * 2)
             ))
         viewD.backgroundColor = UIColor.randomColor()
-        self.view.addSubview(viewD)
+        viewC.addSubview(viewD)                     // View D is a subview of view C
+        
         
         self.view.backgroundColor = UIColor.randomColor()
     }
