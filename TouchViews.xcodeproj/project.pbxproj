@@ -14,6 +14,7 @@
 		B9616F841CC9367500B0B01E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9616F821CC9367500B0B01E /* LaunchScreen.storyboard */; };
 		B9616F8F1CC9367500B0B01E /* TouchViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9616F8E1CC9367500B0B01E /* TouchViewsTests.swift */; };
 		B9616F9A1CC9367500B0B01E /* TouchViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9616F991CC9367500B0B01E /* TouchViewsUITests.swift */; };
+		B9616FA81CC9407500B0B01E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9616FA71CC9407500B0B01E /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B9616F951CC9367500B0B01E /* TouchViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9616F991CC9367500B0B01E /* TouchViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchViewsUITests.swift; sourceTree = "<group>"; };
 		B9616F9B1CC9367500B0B01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9616FA71CC9407500B0B01E /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B9616F801CC9367500B0B01E /* Assets.xcassets */,
 				B9616F821CC9367500B0B01E /* LaunchScreen.storyboard */,
 				B9616F851CC9367500B0B01E /* Info.plist */,
+				B9616FA71CC9407500B0B01E /* UIColorExtension.swift */,
 			);
 			path = TouchViews;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				B9616F7C1CC9367500B0B01E /* ViewController.swift in Sources */,
 				B9616F7A1CC9367500B0B01E /* AppDelegate.swift in Sources */,
+				B9616FA81CC9407500B0B01E /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
