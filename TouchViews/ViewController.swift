@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         let halfWidth = view.frame.width / 2
         let halfHeight = view.frame.height / 2
         
-        let viewA = UIView(frame: CGRect(
+        let viewA = ColoredView(frame: CGRect(
             x: margin,
             y: margin,
             width: halfWidth,
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         viewA.backgroundColor = UIColor.randomColor()
         self.view.addSubview(viewA)
         
-        let viewB = UIView(frame: CGRect(
+        let viewB = ColoredView(frame: CGRect(
             x: view.frame.width - halfWidth - margin,
             y: (view.frame.height / 2) - halfWidth,
             width: halfWidth,
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         viewB.backgroundColor = UIColor.randomColor()
         self.view.addSubview(viewB)
         
-        let viewC = UIView(frame: CGRect(
+        let viewC = ColoredView(frame: CGRect(
             x: margin,
             y: halfHeight + margin,
             width: view.frame.width - (margin * 2),
@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         viewC.backgroundColor = UIColor.randomColor()
         self.view.addSubview(viewC)
         
-        let viewD = UIView(frame: CGRect(
+        let viewD = ColoredView(frame: CGRect(
             x: (view.frame.width / 2) - margin,
             y: margin,
             width: halfWidth - margin * 2,
@@ -55,6 +55,10 @@ class ViewController: UIViewController {
         viewC.addSubview(viewD)                     // View D is a subview of view C
         
         
+        self.view.backgroundColor = UIColor.randomColor()
+    }
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        super.touchesBegan(touches, withEvent: event)
         self.view.backgroundColor = UIColor.randomColor()
     }
 

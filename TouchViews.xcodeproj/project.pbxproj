@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90E96011CEA2F9400495154 /* ColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90E96001CEA2F9400495154 /* ColoredView.swift */; };
 		B9616F7A1CC9367500B0B01E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9616F791CC9367500B0B01E /* AppDelegate.swift */; };
 		B9616F7C1CC9367500B0B01E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9616F7B1CC9367500B0B01E /* ViewController.swift */; };
 		B9616F7F1CC9367500B0B01E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9616F7D1CC9367500B0B01E /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B90E96001CEA2F9400495154 /* ColoredView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoredView.swift; sourceTree = "<group>"; };
 		B9616F761CC9367500B0B01E /* TouchViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9616F791CC9367500B0B01E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9616F7B1CC9367500B0B01E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				B9616F821CC9367500B0B01E /* LaunchScreen.storyboard */,
 				B9616F851CC9367500B0B01E /* Info.plist */,
 				B9616FA71CC9407500B0B01E /* UIColorExtension.swift */,
+				B90E96001CEA2F9400495154 /* ColoredView.swift */,
 			);
 			path = TouchViews;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				B9616F7C1CC9367500B0B01E /* ViewController.swift in Sources */,
 				B9616F7A1CC9367500B0B01E /* AppDelegate.swift in Sources */,
 				B9616FA81CC9407500B0B01E /* UIColorExtension.swift in Sources */,
+				B90E96011CEA2F9400495154 /* ColoredView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +492,7 @@
 				B9616FA01CC9367500B0B01E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9616FA11CC9367500B0B01E /* Build configuration list for PBXNativeTarget "TouchViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				B9616FA31CC9367500B0B01E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9616FA41CC9367500B0B01E /* Build configuration list for PBXNativeTarget "TouchViewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				B9616FA61CC9367500B0B01E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
