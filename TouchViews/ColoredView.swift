@@ -12,10 +12,10 @@ class ColoredView: UIView {
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
-        self.backgroundColor = UIColor.random()
+        self.backgroundColor = UIColor.random
     }
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
-        self.backgroundColor = UIColor.random()
+        self.backgroundColor = UIColor.random
     }
 }
