@@ -24,7 +24,7 @@ class ViewController: UIViewController {
             width: halfWidth,
             height: halfWidth
             ))
-        viewA.backgroundColor = UIColor.random()
+        viewA.backgroundColor = UIColor.random
         self.view.addSubview(viewA)
         
         let viewB = ColoredView(frame: CGRect(
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
             width: halfWidth,
             height: halfWidth
             ))
-        viewB.backgroundColor = UIColor.random()
+        viewB.backgroundColor = UIColor.random
         self.view.addSubview(viewB)
         
         let viewC = ColoredView(frame: CGRect(
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
             width: view.frame.width - (margin * 2),
             height: halfHeight - (margin * 2)
             ))
-        viewC.backgroundColor = UIColor.random()
+        viewC.backgroundColor = UIColor.random
         self.view.addSubview(viewC)
         
         let viewD = ColoredView(frame: CGRect(
@@ -51,15 +51,15 @@ class ViewController: UIViewController {
             width: halfWidth - margin * 2,
             height: viewC.frame.height - (margin * 2)
             ))
-        viewD.backgroundColor = UIColor.random()
+        viewD.backgroundColor = UIColor.random
         viewC.addSubview(viewD)                     // View D is a subview of view C
         
         
-        self.view.backgroundColor = UIColor.random()
+        self.view.backgroundColor = UIColor.random
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
-        self.view.backgroundColor = UIColor.random()
+        self.view.backgroundColor = UIColor.random
     }
 
     override func didReceiveMemoryWarning() {
